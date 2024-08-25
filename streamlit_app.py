@@ -31,3 +31,17 @@ st.markdown(
     "<a href='https://streamlit.io' style='color: red;'>Streamlit</a>",
     unsafe_allow_html=True
 )
+
+st.write("**4. Lists:**")
+st.write("**Code:**\n
+```html
+<!-- Unordered List-->
+<ul>
+  <li style="color: red";> List Item </li>
+</ul>
+```
+")
+st.markdown(
+    "<p style='color: red';>Hello, Streamlit!</p>",
+    unsafe_allow_html=True
+)
