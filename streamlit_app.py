@@ -33,8 +33,7 @@ st.markdown(
 )
 
 st.write("**4. Lists:**")
-st.write("**Code:**\n
-```html
+st.write("**Code:**\n```html
 <!-- Unordered List-->
 <ul>
   <li style="color: red";> List Item </li>
