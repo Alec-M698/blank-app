@@ -6,6 +6,7 @@ st.title("Introduction to HTML")
 # Some text
 st.write("HTML is a markup language used for building websites. HTML is also used to build web apps, e.g. web platforms (Facebook, Instagram, Twitter, etc.).")
 
+
 # Examples of what HTML can do (written in the Markdown counterpart of HTML, as Streamlit doesn't support HTML)
 st.write("**HTML Examples:**")
 st.write("**DISCLAIMER:** This code is rendered using Streamlit's `markdown` function as Streamlit does not have HTML-first support.")
@@ -192,8 +193,8 @@ if st.button("Submit"):
     else:
         st.error("Question 4: Wrong answer. Try again!")
 
-        if answer5.lower() == "href":
-        st.success("Question 5: Correct!")
+    if answer5.lower() == "href":
+         st.success("Question 5: Correct!")
     else:
         st.error("Question 5: Wrong answer. Try again!")
 
