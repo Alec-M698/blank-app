@@ -44,7 +44,7 @@ st.write("**4. Images:**")
 st.write("Images are used to add visual content to a webpage. The `<img>` tag is used to embed an image in an HTML page. The `src` attribute specifies the path to the image, and the `alt` attribute provides alternative text for the image.")
 st.write("**Code:** `<img src='https://via.placeholder.com/150' alt='Placeholder Image'>`")
 st.markdown(
-    "<img src='https://via.placeholder.com/150' alt='Placeholder Image'>",
+    "<img src='https://via.placeholder.com/70x35' alt='Placeholder Image'>",
     unsafe_allow_html=True
 )
 
